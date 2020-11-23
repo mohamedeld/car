@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu target">
+        <div class="menu-line menu-line-1"></div>
+        <div class="menu-line menu-line-2"></div>
+    </div>
+
+    <nav class="navbar target">
+        <a href="#home" class="navbar-link">Home</a>
+        <a href="#popular-cars" class="navbar-link">Popular Cars</a>
+        <a href="#video-gallery" class="navbar-link">Video Gallery</a>
+        <a href="#image-gallery" class="navbar-link">Image Gallery</a>
+        <a href="#contact" class="navbar-link">Contact</a>
+    </nav>
+  
+    <div class="wrapper">
+        <section class="section-1 target center" id="home">
+            <h1 class="section-heading section-heading-1">Classic Cars</h1>
+            <img src="images/car.png" class="section-1-img" alt="">
+        </section>
+    </div>
+    <div class="wrapper">
+        <section class="section-2 target" id="popular-cars">
+            <h1 class="section-heading-car">Popular Cars</h1>
+            <div class="cards-wrapper center">
+                <div class="card">
+                    <h2 class="car-name">Car Name</h2> 
+                    <img src="images/car1.jpg" alt="" class="card-img">
+                    <h3 class="car-price">$200,000</h3>
+                    <button type="button" class="card-btn">See More</button>
+                </div>
+                <div class="card">
+                    <h2 class="car-name">Car Name</h2> 
+                    <img src="images/car2.jpg" alt="" class="card-img">
+                    <h3 class="car-price">$600,000</h3>
+                    <button type="button" class="card-btn">See More</button>
+                </div>
+                <div class="card">
+                    <h2 class="car-name">Car Name</h2> 
+                    <img src="images/car3.jpg" alt="" class="card-img">
+                    <h3 class="car-price">$090,000</h3>
+                    <button type="button" class="card-btn">See More</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper">
+        <section class="section-3 target" id="video-gallery">
+            <h1 class="section-heading-car">Video Gallery</h1>
+            <div class="videos-wrapper center">
+                <img src="images/car4.jpg" class="video" alt="">
+                <img src="images/car5.jpg" class="video" alt="">
+                <img src="images/car6.jpg" class="video" alt="">
+            </div>
+            <div class="videos-wrapper center">
+                <img src="images/car7.jpg" class="video" alt="">
+                <img src="images/car8.jpg" class="video" alt="">
+                <img src="images/car9.jpg" class="video" alt="">
+            </div>
+        </section>
+    </div>
+    <div class="wrapper">
+        <section class="section-4 target" id="image-gallery">
+            <h1 class="section-heading-car">Image Gallery</h1>
+            <div class="gallery center">
+                <div class="gallery-shelf"></div>
+                    <img src="images/one.jpg"class="gallery-img-1" alt="">
+                    <img src="images/two.jpg"class="gallery-img-2" alt="">
+                    <img src="images/three.jpg"class="gallery-img-3" alt="">
+            </div>
+            <div class="gallery center">
+                <div class="gallery-shelf"></div>
+                    <img src="images/four.jpg"class="gallery-img-1" alt="">
+                    <img src="images/five.jpg"class="gallery-img-2" alt="">
+                    <img src="images/six.jpg"class="gallery-img-3" alt="">
+            </div>
+        </section>
+    </div>
+    <div class="wrapper">
+        <section class="section-5 target" id="contact">
+            <h1 class="section-heading-car">Contact Us</h1>
+            <form class="contact-form">
+                <input type="text" class="form-input" placeholder="Your Full Name">
+                <input type="email" class="form-input" placeholder="Your Email">
+                <textarea class="form-input" placeholder="Enter Message" rows="6"
+                style="resize: none;"></textarea>
+                <input type="submit" class="form-btn" value="Submit"/>
+            </form>
+            <p class="copyright">
+                CopyRights by |Mohamed Elrfaay| 2020
+            </p>
+        </section>
+    </div>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
